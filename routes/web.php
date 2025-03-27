@@ -1,10 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CuerpoEjercitoController;
-use App\Http\Controllers\CuartelController;
-use App\Http\Controllers\CompañiaController;
+use App\Http\Controllers\ArmyCorpsController;
+use App\Http\Controllers\BarracksController;
+use App\Http\Controllers\CompaniesController;
 
-Route::resource('army_corps', CuerpoEjercitoController::class);
-Route::resource('barracks', CuartelController::class);
-Route::resource('companies', CompañiaController::class);
+Route::resource('barracks', BarracksController::class);
+Route::resource('companies', CompaniesController::class);

@@ -11,23 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('army_corps', function (Blueprint $table) {
-            $table->id();
-            $table->String('Denom_ce');
-            $table->timestamps();
-        });
+        //
     }
 
-
-
-
-
-    
     /**
      * Reverse the migrations.
      */
     public function down(): void
     {
-        Schema::dropIfExists('army_corps');
+        //
     }
 };
